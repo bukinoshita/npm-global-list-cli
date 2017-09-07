@@ -1,0 +1,37 @@
+{
+  "name": "npm-global-list-cli",
+  "version": "0.0.0",
+  "description": "Get all npm packages installed globally",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/npm-global-list-cli.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "node",
+    "package",
+    "module",
+    "yarn",
+    "install",
+    "globall"
+  ],
+  "scripts": {
+    "test": "xo --quiet"
+  },
+  "bin": {
+    "ngl": "index.js"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "npm-global-list": "^0.0.1",
+    "shout-success": "^0.0.2",
+    "update-notifier": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.4.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
+  }
+}
