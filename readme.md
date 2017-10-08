@@ -1,4 +1,4 @@
-# npm-global-list-cli [![Build Status](https://travis-ci.org/bukinoshita/npm-global-list-cli.svg?branch=master)](https://travis-ci.org/bukinoshita/npm-global-list-clit)
+# npm-global-list-cli [![Build Status](https://travis-ci.org/bukinoshita/npm-global-list-cli.svg?branch=master)](https://travis-ci.org/bukinoshita/npm-global-list-cli)
 
 > Get all npm packages installed globally
 
