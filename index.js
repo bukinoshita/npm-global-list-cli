@@ -5,6 +5,7 @@ const meow = require('meow')
 const updateNotifier = require('update-notifier')
 const npmGlobalList = require('npm-global-list')
 const shoutSuccess = require('shout-success')
+const { bold, underline } = require('chalk')
 
 const cli = meow(
   `
@@ -29,7 +30,11 @@ const cli = meow(
 updateNotifier({ pkg: cli.pkg }).notify()
 
 npmGlobalList().then(pkgs => {
-  shoutSuccess(`You have ${pkgs.length} packages installed globally.\n`)
+  shoutSuccess(
+    `You have ${bold(pkgs.length + ' packages')} installed ${underline(
+      'globally'
+    )}.\n`
+  )
   const l = cli.flags.limit || 11
   const limit = l > pkgs.length ? pkgs.length : l
 

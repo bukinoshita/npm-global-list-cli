@@ -26,6 +26,11 @@ $ ngl --help
 ```
 
 
+## Demo
+
+<img src="demo.png"/>
+
+
 ## Related
 
 - [npm-global-list](https://github.com/bukinoshita/npm-global-list) — API for this module
