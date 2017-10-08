@@ -28,7 +28,7 @@ $ ngl --help
 
 ## Demo
 
-<img src="demo.png"/>
+<img src="demo.png" width="700"/>
 
 
 ## Related
