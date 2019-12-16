@@ -1,6 +1,6 @@
 {
   "name": "npm-global-list-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get all npm packages installed globally",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/npm-global-list-cli.git",
