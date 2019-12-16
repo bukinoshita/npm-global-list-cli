@@ -24,7 +24,7 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "meow": "^5.0.0",
-    "npm-global-list": "^0.0.1",
+    "npm-global-list": "^0.0.2",
     "shout-success": "^0.0.2",
     "update-notifier": "^3.0.0"
   },
