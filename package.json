@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "meow": "^6.0.0",
+    "meow": "^8.0.0",
     "npm-global-list": "^0.0.2",
     "shout-success": "^0.0.3",
     "update-notifier": "^4.0.0"
